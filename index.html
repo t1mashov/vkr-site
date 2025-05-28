@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ImGrouper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --light-gray: #c9c8d1;
+            --dark-gray: #4b4a4f;
+            --darker-gray: #2e2e33;
+            --yellow: #f6ea5e;
+            --gold: #f3d35c;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: var(--light-gray);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--dark-gray), var(--darker-gray));
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .btn-custom {
+            background-color: var(--yellow);
+            color: #000;
+            border: none;
+            margin: 0 10px;
+        }
+
+        .btn-custom:hover {
+            background-color: var(--gold);
+        }
+
+        .features {
+            background-color: var(--light-gray);
+            padding: 60px 0;
+        }
+
+        .features h4 {
+            color: var(--dark-gray);
+        }
+
+        .content-section {
+            padding: 60px 0;
+            background-color: #ffffff;
+        }
+
+        .content-section img {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 12px;
+        }
+
+        .content-text {
+            padding: 20px;
+        }
+
+        .footer {
+            background: linear-gradient(135deg, var(--dark-gray), var(--darker-gray));
+            padding: 40px 0;
+            text-align: center;
+            color: white;
+        }
+
+        .footer a {
+            color: #f6ea5e;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="display-4">ImGrouper</h1>
+            <p class="lead">Умное приложение для группировки изображений — быстро, удобно и точно.</p>
+            <div class="mt-3">
+                <a href="https://example.com/windows" class="btn btn-custom btn-lg">Скачать для Windows</a>
+                <a href="https://example.com/macos" class="btn btn-custom btn-lg">Скачать для macOS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Sections in Checkerboard Layout -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 text-center">
+                    <img src="image_1.png" alt="Image 1">
+                </div>
+                <div class="col-md-6 content-text">
+                    <h3>Смотрите все изображения на одном экране</h3>
+                    <p>Больше не нужно листать бесконечные альбомы — всё, что вам нужно, перед глазами. Удобный обзор в
+                        виде галереи помогает моментально находить нужные снимки.</p>
+                </div>
+            </div>
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 content-text">
+                    <h3>Создавайте и используйте фильтры с динамическими параметрами</h3>
+                    <p>Фильтры ImGrouper — это гибкий инструмент, позволяющий искать изображения по любым признакам:
+                        людям, событиям, дате, месту и даже настроению.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="image_2.png" alt="Image 2">
+                </div>
+            </div>
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 text-center">
+                    <img src="image_3.png" alt="Image 3">
+                </div>
+                <div class="col-md-6 content-text">
+                    <h3>Используйте автоматически распределенные теги для поиска нужного изображения</h3>
+                    <p>ImGrouper самостоятельно распознаёт содержание фото и добавляет подходящие теги, чтобы вы могли
+                        легко находить нужные кадры даже спустя годы.</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6 content-text">
+                    <h3>Настраивайте связи между людьми</h3>
+                    <p>Создавайте умные связи между людьми на фотографиях, группируя снимки по участникам и строя
+                        визуальные отношения между ними.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="image_4.png" alt="Image 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>Свяжитесь с нами: <a href="mailto:example@mail.com">example@mail.com</a></p>
+            <p>Следите за нами:
+                <a href="#">Instagram</a> |
+                <a href="#">Telegram</a> |
+                <a href="#">VK</a>
+            </p>
+            <p class="text-muted">&copy; 2025 ImGrouper</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
